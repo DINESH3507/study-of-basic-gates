@@ -67,7 +67,7 @@ Y= A⊕B
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
 
-module logic gates(a,b,c1,c2,c3,c4,c5,c6,c7);
+module logic gates(a,b,c1,c2,c3,c4,c5,c6,c7);\n
 input a,b;
 output c1,c2,c3,c4,c5,c6,c7;
 not g1(c1,a);
@@ -92,7 +92,7 @@ endmodule
 
 **RTL realization Output:** 
 
-**RTL**
+**RTL:**
 ![Screenshot 2024-11-12 135241](https://github.com/user-attachments/assets/c57ac4b8-2218-4f91-8df2-a1d9bb5f1288)
 
 **Result:**
